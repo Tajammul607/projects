@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Loan Calculator</title>
+
+	<!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/site.webmanifest">
+	<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+
+	<link rel="stylesheet" type="text/css" href="/home/mohammed-tajammul/front-end/Loan calculator/style/style.css">
+	<script type="text/javascript" src="/home/mohammed-tajammul/front-end/Loan calculator/js/calc.js"></script>
+</head>
+<body>
+
+	<div class="Container">
+		<h1>Loan Calculator</h1>
+		<p>Loan Amount : <input type="Number" id="amount" value="1" onchange= "CalculateLoan()" ></p>
+		<p>Interest Rate : <input type="Number" id="interest" value="0.1" onchange="CalculateLoan()"></p>
+		<p>months of pay : <input type="Number" id="months" value="1" onchange="CalculateLoan()"></p>
+		<h2 id="payment"></h2>
+	</div>
+</body>
+</html>
